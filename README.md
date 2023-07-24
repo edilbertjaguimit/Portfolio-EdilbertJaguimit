@@ -6,7 +6,7 @@ Welcome to my portfolio website! This website showcases my projects, skills, and
 
 ## Live Demo
 
-You can view the live version of the portfolio website at 
+You can view the live version of the portfolio website at https://zxbaymax.github.io/Portfolio-EdilbertJaguimit/
 
 ## Technologies Used
 
