@@ -1,0 +1,283 @@
+* {
+    font-family: sans-serif;
+}
+
+/* Navigation Bar Customizaton Start*/
+@keyframes slideFromTop {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+@keyframes slideFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+.navbar {
+    animation: 0.5s ease-out 0s 1 slideFromTop !important;
+}
+
+.navbar-nav {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    max-width: 500px !important;
+}
+
+
+.active a {
+    color: #fff !important;
+    background-color: #BD5FFF !important;
+}
+
+.nav-link {
+    padding: 5px 15px !important;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    background-color: #BD5FFF !important;
+    color: #fff;
+}
+
+.nav-link:active {
+    background-color: #69359C !important;
+    color: #fff !important;
+}
+
+.btn-menubar {
+    outline: none;
+}
+/* Navigation Bar Customizaton End*/
+
+/* Home Customizaton Start*/
+.btn-aboutme{
+    background-color: transparent !important;
+    border: 1px solid #ae4cf4 !important;
+    color: #000 !important;
+    transition: all 0.3s ease-in-out;
+}
+.btn-aboutme:hover{
+    background-color: #BD5FFF !important;
+    color: #fff !important;
+}
+
+.btn-aboutme:active {
+    background-color: #69359C !important;
+    color: #fff !important;
+}
+.btn-resume,
+.btn-projects,
+.btn-read,
+.btn-coffee {
+    background-color: #BD5FFF !important;
+    color: #fff !important;
+    transition: all 0.3s ease-in-out;
+}
+.btn-resume:hover,
+.btn-projects:hover,
+.btn-read:hover,
+.btn-coffee:hover {
+    background-color: #ae4cf4 !important;
+    color: #fff !important;
+}
+.btn-resume:active,
+.btn-projects:active,
+.btn-read:active,
+.btn-coffee:active {
+    background-color: #69359C !important;
+    color: #fff !important;
+}
+
+.home-fa-icon {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+}
+
+.fa-icon {
+    color: #69359C;
+    font-size: 25px;
+}
+
+.fa-icon:hover {
+    color: #BD5FFF;
+}
+
+.fa-icon:active {
+    color: #ae4cf4;
+}
+
+/* Home Customizaton End*/
+
+/* Projects Customizaton Start*/
+.pt-5 {
+    padding-top: 80px !important;
+}
+
+.btn-view-all {
+    background-color: #BD5FFF !important;
+    color: #fff !important;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-view-all:hover {
+    background-color: #ae4cf4 !important;
+    color: #fff !important;
+}
+
+.btn-view-all:active {
+    background-color: #69359C !important;
+    color: #fff !important;
+}
+
+.scale {
+    transition: transform 0.3s ease-in-out;
+}
+
+.scale:hover {
+    transform: scale(1.01);
+}
+
+/* Projects Customizaton End*/
+
+/* Skills Customization Start */
+.bg-html-progress{
+    background-color: #ffa500 !important;
+}
+.bg-bs-progress{
+    background-color: #760FF0 !important;
+}
+.bg-js-progress{
+    background-color: #E8D44D !important;
+}
+.bg-jquery-progress{
+    background-color: #20A7DB !important;
+}
+.bg-asp-progress{
+    background-color: #592C8C !important;
+}
+.bg-cs-progress{
+    background-color: #6A4097 !important;
+}
+.bg-py-progress{
+    background-color: #3C78A8 !important;
+}
+.bg-java-progress{
+    background-color: #0D84C0 !important;
+}
+.bg-pg-progress{
+    background-color: #31648C !important;
+}
+.bg-mysql-progress{
+    background-color: #42759C !important;
+}
+/* Skills Customization End */
+
+/* Contact Customization Start*/
+.btn-sendMessage{
+    background-color: #BD5FFF !important;
+    color: #fff !important;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-sendMessage:hover {
+    background-color: #ae4cf4 !important;
+    color: #fff !important;
+}
+
+.btn-sendMessage:active {
+    background-color: #69359C !important;
+    color: #fff !important;
+}
+
+.fa-font-text{
+    font-size: 20px;
+}
+.fa-font-icon{
+    font-size: 30px;
+    color: #69359C;
+}
+/* Contact Customization End*/
+
+/* Footer Customizaton Start*/
+.footer-fa-icon{
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    margin: auto;
+    width: 20%;
+}
+/* Footer Customizaton End*/
+
+
+@media (max-width: 768px) {
+
+    /* Navigation Bar Customizaton Start*/
+    .navbar-nav {
+        height: 60% !important;
+    }
+
+    /* Navigation Bar Customizaton End*/
+
+    /* Home Customizaton Start*/
+    .home-fa-icon {
+        max-width: 100px;
+    }
+
+    .btn-projects{
+        background-color: transparent !important;
+        border: 1px solid #ae4cf4 !important;
+        color: #000 !important;
+        transition: all 0.3s ease-in-out;
+    }
+    .btn-projects:hover{
+        background-color: #BD5FFF !important;
+        color: #fff !important;
+    }
+    
+    .btn-projects:active {
+        background-color: #69359C !important;
+        color: #fff !important;
+    }
+    .btn-aboutme{
+        display: none;
+    }
+    /* Home Customizaton End*/
+
+    /* Projects Customizaton Start*/
+    .custom-toggler {
+        outline: none;
+        border: none;
+    }
+
+    .scale:hover {
+        transform: scale(1.00);
+    }
+    .footer-fa-icon{
+        width: 50%;
+    }
+    /* Projects Customizaton End*/
+
+    /* Contact Customization Start*/
+    .fa-font-text{
+        font-size: 13px;
+    }
+    .fa-font-icon{
+        font-size: 15px;
+    }
+    /* Contact Customization End*/
+
+    /* About Customization Start*/
+
+    /* About Customization End*/
+}
