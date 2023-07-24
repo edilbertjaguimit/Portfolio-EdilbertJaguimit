@@ -24,7 +24,7 @@ You can view the live version of the portfolio website at https://zxbaymax.githu
 - Skills section highlighting the programming languages and technologies I'm proficient in.
 - Contact section with a form to send messages directly to my email.
 
-If you have any questions, feedback, or would like to collaborate, feel free to reach out to me at edilbert@example.com
+If you have any questions, feedback, or would like to collaborate, feel free to reach out to me at edilbertjagimit01@gmail.com
 
 ---
 © 2023 Edilbert's Portfolio. All rights reserved.
